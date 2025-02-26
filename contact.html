@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ferhat Küçük | Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-content">
+        <div class="logo">FERHAT KÜÇÜK</div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="nav-links">
+          <a href="/">Thuis</a>
+          <a href="/fleet.html">Vloot</a>
+          <a href="/services.html">Diensten</a>
+          <a href="/contact.html"aria-current="page">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" style="height: 60vh; background-image: url(img/12.jpg);">
+      <div class="hero-content">
+        <h1>Neem Contact Met Ons Op</h1>
+        <p>Wij helpen u graag verder</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="contact-section">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Contactgegevens</h2>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Adres</h3>
+                <p>123 Luxury Lane</p>
+                <p>Zaandam, Holland 90210</p>
+                <p>Netherlands</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h3>Telefoon</h3>
+                <p>1-800-FERHAT-KUCUK</p>
+                <p>+31 (0) 20 123 4567</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h3>E-mail</h3>
+                <p>info@ferhatkucuk.com</p>
+                <p>support@ferhatkucuk.com</p>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <h3>Werkuren</h3>
+                <p>Maandag - Vrijdag: 09:00 - 18:00</p>
+                <p>Zaterdag: 10:00 - 14:00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h2>Bericht Verzenden</h2>
+            <form id="contactForm">
+              <div class="form-group">
+                <label for="name">Naam Achternaam</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefoon</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="form-group">
+                <label for="subject">Onderwerp</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Selecteer</option>
+                  <option value="general">Algemene Informatie</option>
+                  <option value="sales">Verkoop</option>
+                  <option value="support">Technische Ondersteuning</option>
+                  <option value="partnership">Zakelijk Partnerschap</option>
+                  <option value="partnership">Ander</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Bericht</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="cta-button">Versturen</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section">
+        <h2>Onze Locatie</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23133.939013743282!2d4.798119394256899!3d52.44914967447862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5fcd955df5113%3A0xe2c14b50ac405146!2sZaandam%2C%20Hollanda!5e0!3m2!1str!2str!4v1740414735190!5m2!1str!2str"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Ferhat Küçük</h4>
+          <p>De toekomst van luxe commercieel transport leiden</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>1-800-FERHAT-KUCUK</p>
+          <p>info@ferhatkucuk.com</p>
+        </div>
+        <div class="footer-section">
+          <h4>Volg Ons</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Ferhat Küçük. Alle rechten voorbehouden.</p>
+      </div>
+    </footer>
+  </body>
+</html> 
